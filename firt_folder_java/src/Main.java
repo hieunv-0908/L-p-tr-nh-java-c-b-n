@@ -104,20 +104,24 @@ public class Main {
         }
          */
         // b6
+        /*
         Scanner sc = new Scanner(System.in);
         int stt = Integer.parseInt(sc.nextLine());
         int ke;
         System.out.printf("Sách số 1");
-        stt < 25 ? ke = 1 : (stt < 50 ? ke = 2 : ke = 3);
+        ke = (stt < 25) ?1 : (stt < 50 ? 2 : 3);
         System.out.printf("Kệ %d - vị trí %d",ke,stt);
         if(stt < 25){
             System.out.printf("Kệ %d - vị trí %d",ke,stt);
-        }else (stt < 50){
+        }else if (stt < 50){
             ke = 2;
             System.out.printf("Kệ %d - vị trí %d",ke,stt);
         };
         if(ke <= 10){
-
+            System.out.printf("Phân khu: Khu cận (Gần cửa)");
+        }else {
+            System.out.printf("Phân khu: Khu viễn");
         }
+         */
     }
 }
